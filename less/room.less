@@ -1,0 +1,52 @@
+// out: ../css/room.css, compress: true, sourceMap: false
+@import 'variables.less';
+// -------------------------------------------------
+// Block '.room'
+// -------------------------------------------------
+.room {
+    
+    // -----------------------------------------
+    // All modificators
+    // -----------------------------------------
+
+
+    // -----------------------------------------
+    // All elements
+    // -----------------------------------------
+
+    // Element '.room .room__title'
+    & &__title{
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+        margin: 0 0 10px 0;
+        font-weight: 700;
+    }
+
+    // Element '.room .room__place'
+    & &__place{
+        margin: 2px 0 0 0;
+    }
+
+    // Element '.room .room__price'
+    & &__price{
+        text-align: center;
+
+        // Element '.room .room__price-val'
+        &-val{
+            font-size: 23px;
+            font-weight: 700;
+            height: 26px;
+            margin: 0;
+        }
+
+        // Element '.room .room__price-meter'
+        &-meter{
+            font-size: 15px;
+            line-height: 18px;
+            margin: 6px 0 0 0;
+            color: #999;
+            font-weight: 500;
+        }
+    }
+  
+}
