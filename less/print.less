@@ -1,0 +1,22 @@
+// out: ../css/print.css, compress: true, sourceMap: false
+@import 'variables.less';
+//
+// --------------------------------------------------------
+// Media query for PRINT
+// --------------------------------------------------------
+@media print {
+    
+    .hidden{
+
+        &--print{
+            display: none !important;
+        }
+    }
+    
+    .visible{
+
+        &--print{
+            display: block !important;
+        }
+    }
+}
